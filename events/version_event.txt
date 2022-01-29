@@ -1,0 +1,16 @@
+namespace = emex_update
+
+#updates
+country_event = {
+	id = emex_update.0
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	immediate = {
+		set_global_flag = emex_version_135
+	}
+}
